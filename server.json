@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Shown06/airlogicpro-mcp",
+  "description": "App Store category opportunity scoring (Apple iTunes data). 4 tools for AI agents to research market opportunities from Claude Desktop / Cursor.",
+  "repository": {
+    "url": "https://github.com/Shown06/airlogicpro-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@shown06/airlogicpro-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "AIRLOGICPRO_API_KEY",
+          "description": "airlogicpro.com API key from /dashboard/api-keys",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

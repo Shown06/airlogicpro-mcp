@@ -1,5 +1,5 @@
 {
-  "name": "@airlogicpro/mcp-server",
+  "name": "@shown06/airlogicpro-mcp",
   "version": "0.1.0",
   "description": "MCP server for airlogicpro.com — App Store opportunity scoring for AI agents",
   "type": "module",
