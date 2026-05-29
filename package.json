@@ -1,0 +1,30 @@
+{
+  "name": "@airlogicpro/mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for airlogicpro.com — App Store opportunity scoring for AI agents",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "airlogicpro-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
